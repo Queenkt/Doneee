@@ -62,37 +62,31 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
     </tr>
 </table>
 <form>
-
   <h2>Contact Me</h2>
   <form id="contactForm" action="#" method="post" onsubmit="return validateForm()">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br>
-
-   <label for="email">Email:</label><br>
+ <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br>
-
-  <label for="message">Message:</label><br>
+ <label for="message">Message:</label><br>
     <textarea id="message" name="message" required></textarea><br>
-
-   <label for="priority">Priority:</label><br>
+ <label for="priority">Priority:</label><br>
     <select id="priority" name="priority" required>
           <option value="" disabled selected>Select Priority</option>
       <option value="low">Low</option>
       <option value="medium">Medium</option>
       <option value="high">High</option>
     </select><br>
-
  <input type="submit" value="Submit">
   </form>
 </div>
-function validateForm() {
+<function validateForm() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
   var priority = document.getElementById("priority").value;
-
-  if (name == "" || email == "" || message == "" || priority == "") {
+ if (name == "" || email == "" || message == "" || priority == "") {
     alert("All fields must be filled out");
     return false;
-  }
+  }>
 </script>
