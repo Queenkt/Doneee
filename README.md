@@ -1,5 +1,4 @@
-# Assignment-
-   <!DOCTYPE html>
+Assignment
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -87,8 +86,6 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
  <input type="submit" value="Submit">
   </form>
 </div>
-
-<script>
 function validateForm() {
   var name = document.getElementById("name").value;
   var email = document.getElementById("email").value;
@@ -99,8 +96,4 @@ function validateForm() {
     alert("All fields must be filled out");
     return false;
   }
-}
 </script>
-
-</body>
-</html>
