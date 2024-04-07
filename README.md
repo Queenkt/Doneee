@@ -19,7 +19,7 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
   <p>I am a future Backend developer and a future lawyer.</p>
 
   <h2>Summary</h2>
-  <p>My goal for this diploma course is to learn and and to be able to incorporate what i have learnt to my field of study to inprove it.</p>
+  <p>My goal for this diploma course is to learn and and to be able to incorporate what i have learnt to my field of study in order to improve it.</p>
 
   <h2>Education</h2>
   <p>I have a WASSCE Certificate.<p>
