@@ -86,7 +86,5 @@ padding: 10px; text-align: right; background-color: blue; border: 1px solid ;bor
   var message = document.getElementById("message").value;
   var priority = document.getElementById("priority").value;
  if (name == "" || email == "" || message == "" || priority == "") {
-    alert("All fields must be filled out");
-    return false;
-  }>
+    alert("All fields must be filled out");  return false;   } 
 </script>
